@@ -18,6 +18,4 @@ export const valueSlice = createSlice({
 
 });
 
-export const { addValue, subtractValue } = valueSlice.actions;
-export const selectValue = (state) => state.valueState.value;
-export default valueSlice.reducer;
+
